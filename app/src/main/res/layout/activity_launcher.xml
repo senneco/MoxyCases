@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<LinearLayout
+		android:id="@+id/activity_launcher"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:divider="?android:dividerHorizontal"
+		android:orientation="vertical"
+		android:showDividers="middle"
+		tools:context="com.arellomobile.mvp.sample.devfest.net.senneco.moxy.cases.LauncherActivity">
+
+		<TextView
+			android:id="@+id/activity_launcher_text_view_case_1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:text="@string/case_1_name"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+		<TextView
+			android:id="@+id/activity_launcher_text_view_case_2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:text="@string/case_2_name"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+		<TextView
+			android:id="@+id/activity_launcher_text_view_case_3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:text="@string/case_3_name"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+		<TextView
+			android:id="@+id/activity_launcher_text_view_case_4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:text="@string/case_4_name"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+		<TextView
+			android:id="@+id/activity_launcher_text_view_case_5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:text="@string/case_5_name"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+		<TextView
+			android:id="@+id/activity_launcher_text_view_case_6"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:text="@string/case_6_name"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+		<TextView
+			android:id="@+id/activity_launcher_text_view_case_7"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:text="@string/case_7_name"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+		<TextView
+			android:id="@+id/activity_launcher_text_view_case_8"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:text="@string/case_8_name"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+		<TextView
+			android:id="@+id/activity_launcher_text_view_case_9"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:text="@string/case_9_name"
+			android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:padding="24dp"
+			android:text="@string/more_in_code" />
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/activity_main2"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal"
+	tools:context="net.senneco.moxy.cases.case5.MainActivity">
+
+	<net.senneco.moxy.cases.case7.CounterWidget
+		android:id="@+id/counter_1"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="#FF80AB" />
+
+	<net.senneco.moxy.cases.case7.CounterWidget
+		android:id="@+id/counter_2"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="#CCFF90" />
+
+</LinearLayout>

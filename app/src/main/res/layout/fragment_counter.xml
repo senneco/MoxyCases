@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	tools:context="net.senneco.moxy.cases.case5.CounterFragment">
+
+	<TextView
+		android:id="@+id/count_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/plus_button"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="16dp"
+		android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+	
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/plus_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:scaleType="center"
+		android:src="@drawable/ic_add_account"
+		android:clickable="true"
+		app:backgroundTint="#00B8D4"
+		app:rippleColor="#00E5FF"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+	<string name="app_name">Moxy Cases</string>
+	<string name="hello_world">Hello world</string>
+	<string name="timer">%1$d</string>
+
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+
+	<string name="case_1_name">Case 1: add view</string>
+	<string name="case_2_name">Case 2: show timer → add view</string>
+	<string name="case_3_name">Case 3: show timer → show AlertDialog</string>
+	<string name="case_4_name">Case 4: show timer → add custom view</string>
+	<string name="case_5_name">Case 5: show two different counters in fragment</string>
+	<string name="case_6_name">Case 6: show one counter in two fragments</string>
+	<string name="case_7_name">Case 7: show two different counters as custom views</string>
+	<string name="case_8_name">Case 8: show details</string>
+	<string name="case_9_name">Case 9: show global details</string>
+	<string name="more_in_code">More in source code of project ;)</string>
+</resources>
